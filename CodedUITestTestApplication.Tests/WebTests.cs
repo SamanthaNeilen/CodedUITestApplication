@@ -11,11 +11,11 @@ namespace CodedUITestTestApplication.Tests
     public class WebTests
     {
         protected string StartUrl = ConfigurationManager.AppSettings["ApplicationStartUrl"];
-   
+
         [TestMethod]
         public void WebTest_TestForm()
         {
-            BrowserWindow browser = BrowserWindow.Launch(new Uri(StartUrl));           
+            BrowserWindow browser = BrowserWindow.Launch(new Uri(StartUrl));
 
             var nameTextBox = new HtmlEdit(browser);
             nameTextBox.SearchProperties.Add(HtmlControl.PropertyNames.Id, "Name");
@@ -33,11 +33,13 @@ namespace CodedUITestTestApplication.Tests
             nameValidationmessage.SearchProperties.Add(HtmlControl.PropertyNames.Id, "Name-error");
             Assert.IsFalse(nameValidationmessage.TryFind());
 
+            var expectedEmailvalidationMessage = string.Format(Messages.FieldRequired, Labels.EmailAddress);
             var emailAddessValidationMessage = new HtmlSpan(browser);
-            emailAddessValidationMessage.SearchProperties.Add(HtmlControl.PropertyNames.Id, "EmailAdress-error");
+            emailAddessValidationMessage.SearchProperties.Add(HtmlControl.PropertyNames.Class, "field-validation-error");
+            emailAddessValidationMessage.SearchProperties.Add(HtmlControl.PropertyNames.InnerText, expectedEmailvalidationMessage, PropertyExpressionOperator.Contains);
             Assert.IsTrue(emailAddessValidationMessage.TryFind());
 
-            var expectedEmailMessage = string.Format(Messages.FieldRequired, Labels.EmailAdress);
+            var expectedEmailMessage = string.Format(Messages.FieldRequired, Labels.EmailAddress);
             Assert.IsTrue(emailAddessValidationMessage.InnerText.Equals(expectedEmailMessage));
         }
     }

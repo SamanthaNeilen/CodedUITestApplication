@@ -120,8 +120,8 @@
   <data name="FieldRequired" xml:space="preserve">
     <value>{0} is required</value>
   </data>
-  <data name="InvalidEmailAdress" xml:space="preserve">
-    <value>Emailadress is invalid</value>
+  <data name="InvalidEmailAddress" xml:space="preserve">
+    <value>Emailaddress is invalid</value>
   </data>
   <data name="InvalidHouseNumber" xml:space="preserve">
     <value>Housenumber is a numeric value</value>

@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodedUITestApplication.Web"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodedUITestApplication.Shared", "CodedUITestApplication.Shared\CodedUITestApplication.Shared.csproj", "{12B0D867-3EC8-409D-87A3-D735D7EE1216}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleApplications", "SampleApplications", "{5D6BAB75-68F5-40BF-BBB0-5ADE29FA49C1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleWebApplication", "SampleWebApplication", "{5D6BAB75-68F5-40BF-BBB0-5ADE29FA49C1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{35466F8F-9F2C-49B1-9373-B8A5DA7550F0}"
 	ProjectSection(SolutionItems) = preProject
@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodedUITestTestApplication.Tests", "CodedUITestTestApplication.Tests\CodedUITestTestApplication.Tests.csproj", "{C8C7501B-5BE9-4986-BA41-408DEDC2C51E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodedUITestApplication.WPF", "CodedUITestApplication.WPF\CodedUITestApplication.WPF.csproj", "{8754FF6D-729A-4959-9EE8-997485AC7E21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +36,10 @@ Global
 		{C8C7501B-5BE9-4986-BA41-408DEDC2C51E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8C7501B-5BE9-4986-BA41-408DEDC2C51E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8C7501B-5BE9-4986-BA41-408DEDC2C51E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8754FF6D-729A-4959-9EE8-997485AC7E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8754FF6D-729A-4959-9EE8-997485AC7E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8754FF6D-729A-4959-9EE8-997485AC7E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8754FF6D-729A-4959-9EE8-997485AC7E21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +47,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{551D69F3-8D7F-4A93-BDFA-4EA93667A76C} = {5D6BAB75-68F5-40BF-BBB0-5ADE29FA49C1}
 		{12B0D867-3EC8-409D-87A3-D735D7EE1216} = {5D6BAB75-68F5-40BF-BBB0-5ADE29FA49C1}
+		{8754FF6D-729A-4959-9EE8-997485AC7E21} = {5D6BAB75-68F5-40BF-BBB0-5ADE29FA49C1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4313A2B7-4726-4115-8C51-496B92BB7AC9}

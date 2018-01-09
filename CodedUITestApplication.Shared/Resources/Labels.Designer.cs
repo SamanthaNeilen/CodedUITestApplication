@@ -61,38 +61,11 @@ namespace CodedUITestApplication.Shared.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add new.
-        /// </summary>
-        public static string Add {
-            get {
-                return ResourceManager.GetString("Add", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Add customer.
         /// </summary>
         public static string AddCustomer {
             get {
                 return ResourceManager.GetString("AddCustomer", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to City.
-        /// </summary>
-        public static string City {
-            get {
-                return ResourceManager.GetString("City", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Country.
-        /// </summary>
-        public static string Country {
-            get {
-                return ResourceManager.GetString("Country", resourceCulture);
             }
         }
         
@@ -106,29 +79,11 @@ namespace CodedUITestApplication.Shared.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Emailadress.
+        ///   Looks up a localized string similar to Emailaddress.
         /// </summary>
-        public static string EmailAdress {
+        public static string EmailAddress {
             get {
-                return ResourceManager.GetString("EmailAdress", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Housenumber.
-        /// </summary>
-        public static string HouseNumber {
-            get {
-                return ResourceManager.GetString("HouseNumber", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Extension.
-        /// </summary>
-        public static string HouseNumberExtension {
-            get {
-                return ResourceManager.GetString("HouseNumberExtension", resourceCulture);
+                return ResourceManager.GetString("EmailAddress", resourceCulture);
             }
         }
         
@@ -174,24 +129,6 @@ namespace CodedUITestApplication.Shared.Resources {
         public static string SavedTitle {
             get {
                 return ResourceManager.GetString("SavedTitle", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Street.
-        /// </summary>
-        public static string Street {
-            get {
-                return ResourceManager.GetString("Street", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Zipcode.
-        /// </summary>
-        public static string ZipCode {
-            get {
-                return ResourceManager.GetString("ZipCode", resourceCulture);
             }
         }
     }

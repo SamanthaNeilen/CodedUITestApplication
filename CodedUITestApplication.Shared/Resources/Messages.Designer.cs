@@ -70,11 +70,11 @@ namespace CodedUITestApplication.Shared.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Emailadress is invalid.
+        ///   Looks up a localized string similar to Emailaddress is invalid.
         /// </summary>
-        public static string InvalidEmailAdress {
+        public static string InvalidEmailAddress {
             get {
-                return ResourceManager.GetString("InvalidEmailAdress", resourceCulture);
+                return ResourceManager.GetString("InvalidEmailAddress", resourceCulture);
             }
         }
         

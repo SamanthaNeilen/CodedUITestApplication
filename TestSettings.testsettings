@@ -3,6 +3,9 @@
   <Description>These are default test settings for a local test run.</Description>
   <Deployment>
     <DeploymentItem filename="CodedUITestTestApplication.Tests\Assets\Browsers.csv" />
+    <DeploymentItem filename="CodedUITestTestApplication.Tests\Assets\geckodriver.exe" />
+    <DeploymentItem filename="CodedUITestTestApplication.Tests\Assets\chromedriver.exe" />
+    <DeploymentItem filename="CodedUITestTestApplication.Tests\Assets\IEDriverServer.exe" />
   </Deployment>
   <Execution>
     <TestTypeSpecific>

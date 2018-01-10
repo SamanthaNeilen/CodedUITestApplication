@@ -12,6 +12,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{35466F8F-9F2C-49B1-9373-B8A5DA7550F0}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
+		TestSettings.testsettings = TestSettings.testsettings
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodedUITestTestApplication.Tests", "CodedUITestTestApplication.Tests\CodedUITestTestApplication.Tests.csproj", "{C8C7501B-5BE9-4986-BA41-408DEDC2C51E}"

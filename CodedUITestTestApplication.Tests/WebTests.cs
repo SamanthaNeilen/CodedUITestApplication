@@ -10,11 +10,24 @@ namespace CodedUITestTestApplication.Tests
     [CodedUITest]
     public class WebTests
     {
+        private TestContext _testContextInstance;
+        public TestContext TestContext
+        {
+            get { return _testContextInstance; }
+            set { _testContextInstance = value; }
+        }
+
         protected string StartUrl = ConfigurationManager.AppSettings["ApplicationStartUrl"];
 
-        [TestMethod]
+        [TestMethod, DataSource("Browsers")]
         public void WebTest_TestForm()
         {
+            var browserIdentifier = "IE";
+            if (TestContext.DataRow != null)
+            {
+                browserIdentifier = TestContext.DataRow[0].ToString();
+            }
+            BrowserWindow.CurrentBrowser = browserIdentifier;
             BrowserWindow browser = BrowserWindow.Launch(new Uri(StartUrl));
 
             var nameTextBox = new HtmlEdit(browser);

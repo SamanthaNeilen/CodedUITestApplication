@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodedUITestApplication.Web", "CodedUITestApplication.Web\CodedUITestApplication.Web.csproj", "{551D69F3-8D7F-4A93-BDFA-4EA93667A76C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodedUITestApplication.Shared", "CodedUITestApplication.Shared\CodedUITestApplication.Shared.csproj", "{12B0D867-3EC8-409D-87A3-D735D7EE1216}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleWebApplication", "SampleWebApplication", "{5D6BAB75-68F5-40BF-BBB0-5ADE29FA49C1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleApplication", "SampleApplication", "{5D6BAB75-68F5-40BF-BBB0-5ADE29FA49C1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{35466F8F-9F2C-49B1-9373-B8A5DA7550F0}"
 	ProjectSection(SolutionItems) = preProject

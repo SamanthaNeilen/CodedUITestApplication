@@ -16,7 +16,7 @@
 </p>
 <p>
 	To run the Test_Windows_Calculator test, make sure that path to calc.exe is vlid for your machine.
-	Next start the test from the Test Explorer window.
+	Next start the test from the Test Explorer window. This test was written for the calculator on a Windows 2012 server with english locale and may not work on other locales or with the newer implementation of windows calculator for Windows 10.
 </p>
 <p>
 	To run the Test_WPF_Addition test, make sure to build the CodedUITestApplication.WPF in debug mode. 
